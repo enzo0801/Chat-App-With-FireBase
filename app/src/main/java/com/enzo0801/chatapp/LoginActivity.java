@@ -1,5 +1,8 @@
 package com.enzo0801.chatapp;
 
+import android.app.Activity;
+import android.app.AlertDialog;
+import android.app.Dialog;
 import android.content.Intent;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
@@ -7,6 +10,7 @@ import androidx.appcompat.widget.Toolbar;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -18,8 +22,8 @@ import com.rengwuxian.materialedittext.MaterialEditText;
 import androidx.annotation.NonNull;
 
 public class LoginActivity extends AppCompatActivity {
-
-    MaterialEditText email, password;
+    EditText email, password;
+    String txt_email, txt_password;
     Button btn_login;
 
     FirebaseAuth auth;
@@ -43,8 +47,8 @@ public class LoginActivity extends AppCompatActivity {
         btn_login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String txt_email = email.getText().toString();
-                String txt_password = password.getText().toString();
+                txt_email = email.getText().toString();
+                txt_password = password.getText().toString();
 
                 if(TextUtils.isEmpty(txt_email) || TextUtils.isEmpty(txt_password)) {
                     Toast.makeText(LoginActivity.this, "Bạn phải điền đầy đủ thông tin", Toast.LENGTH_SHORT).show();
