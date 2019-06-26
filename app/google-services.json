@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "566426775550",
+    "firebase_url": "https://chat-app-c4e4b.firebaseio.com",
+    "project_id": "chat-app-c4e4b",
+    "storage_bucket": "chat-app-c4e4b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:566426775550:android:1db164e3d2941d4e",
+        "android_client_info": {
+          "package_name": "com.enzo0801.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "566426775550-7udjun25gnagrhgrlpfg5choqk3gd0ck.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.enzo0801.chatapp",
+            "certificate_hash": "ae19a6e492d61e77ecc975507dcb4b36ab94d354"
+          }
+        },
+        {
+          "client_id": "566426775550-imdbamfv38764srg34pfj4lcoekb7q47.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDILU76hM24BwndrjKyMddAvLRcj3-Snc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "566426775550-imdbamfv38764srg34pfj4lcoekb7q47.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
