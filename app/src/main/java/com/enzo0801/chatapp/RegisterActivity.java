@@ -26,7 +26,7 @@ import androidx.annotation.NonNull;
 
 public class RegisterActivity extends AppCompatActivity {
 
-    EditText username, email, password;
+    MaterialEditText username, email, password;
     Button btn_register;
 
     FirebaseAuth auth;

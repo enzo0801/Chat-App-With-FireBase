@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:gravity="center"
     android:orientation="vertical"
+    android:background="@color/colorPrimary"
     android:layout_height="match_parent"
     tools:context=".StartActivity">
 
@@ -12,7 +13,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Chat App"
-        android:textSize="25sp"
+        android:textColor="#fff"
+        android:textSize="30sp"
         android:textStyle="bold"/>
     
     <Button
@@ -20,11 +22,16 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
         android:id="@+id/login"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#fff"
         android:text="Login"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
         android:id="@+id/register"
         android:text="Register"/>
 
